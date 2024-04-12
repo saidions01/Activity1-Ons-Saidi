@@ -163,10 +163,10 @@ In this part we will cover merge conflicts and how to revert a commit.
 On the top half above the ====== Will be the change from the branch specified. In this example its `part2`. On the bottom will be what the branch you are merging into has. In order to resolve these conflicts you will need to delete one version or the other and take out the separators. That means........
 
 If you want to keep the code from `whatever branch` Remove the...   
-```>>>>>>>>> whatever branch
-=================
+whatever branch
 
->>>>>>>>>>> whatever other branch
+
+ whatever other branch
 ```
 But keep the  
 `*bat`
